@@ -236,5 +236,12 @@ public class Main {
                     break;
             }
         }
+        System.out.println("It's sorting time");
+        int len = 10;
+        int[] arr = new int[len];
+        fillArray(arr, len);
+        printArray(arr, len);
+        quickSort(arr, len);
+        printArray(arr, len);
     }
 }
