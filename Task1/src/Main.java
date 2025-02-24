@@ -1,4 +1,4 @@
-import sberpracticetask.task1.tasks;
+import task1.tasks;
 
 public class Main {
 

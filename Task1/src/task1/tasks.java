@@ -1,4 +1,4 @@
-package sberpracticetask.task1;
+package task1;
 
 import java.util.Random;
 import java.util.Scanner;
