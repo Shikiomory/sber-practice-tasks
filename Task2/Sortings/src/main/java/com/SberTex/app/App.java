@@ -1,7 +1,6 @@
 package com.SberTex.app;
 
-public class sortings {
-
+public class App {
     public static void BubbleSort(int[] arr, int len) {
         for (int j = 0; j < len - 1; ++j) {
             for (int i = 0; i < len - 1 - j; ++i) {
@@ -65,16 +64,13 @@ public class sortings {
         System.out.println("It's sorting time");
         int len = 10;
         int[] arr = new int[len];
-        sortings.fillArray(arr, len);
-        sortings.printArray(arr, len);
-        sortings.quickSort(arr, len);
-        sortings.printArray(arr, len);
+        fillArray(arr, len);
+        printArray(arr, len);
+        quickSort(arr, len);
+        printArray(arr, len);
     }
-}
 
-
-public class App {
     public static void main(String[] args) {
-        sortings.examples();
+        examples();
     }
 }
