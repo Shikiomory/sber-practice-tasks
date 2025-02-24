@@ -1,4 +1,4 @@
-package task2;
+package com.SberTex.app;
 
 public class sortings {
 
@@ -69,5 +69,12 @@ public class sortings {
         sortings.printArray(arr, len);
         sortings.quickSort(arr, len);
         sortings.printArray(arr, len);
+    }
+}
+
+
+public class App {
+    public static void main(String[] args) {
+        sortings.examples();
     }
 }
