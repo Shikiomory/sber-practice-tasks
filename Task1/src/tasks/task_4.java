@@ -1,4 +1,4 @@
-package task1;
+package tasks;
 
 public class task_4 {
     public  void exec() {

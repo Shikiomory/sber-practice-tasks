@@ -1,4 +1,4 @@
-import task1.*;
+import tasks.*;
 
 import java.util.Scanner;
 
