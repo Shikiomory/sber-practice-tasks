@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        boolean exit = false;
         System.out.println("Для выхода введите 0");
+
         Scanner scanner = new Scanner(System.in);
         int task;
+        boolean exit = false;
+
         while (!exit) {
             System.out.println("Выберите номер задания:");
             task = scanner.nextInt();
