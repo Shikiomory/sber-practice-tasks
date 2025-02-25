@@ -37,7 +37,8 @@ public class AppTest {
     void testBubbleSort() {
         int[] arr = {5, 3, 8, 1, 2};
         int[] expected = {1, 2, 3, 5, 8};
-        App.BubbleSort(arr, arr.length);
+        BubbleSort bsort = new BubbleSort();
+        bsort.BubbleSort(arr, arr.length);
         assertArrayEquals(expected, arr);
     }
 
@@ -45,7 +46,8 @@ public class AppTest {
     void testQuickSort() {
         int[] arr = {9, 2, 6, 1, 5};
         int[] expected = {1, 2, 5, 6, 9};
-        App.quickSort(arr, arr.length);
+        QuickSort qsort = new QuickSort();
+        qsort.QuickSort(arr, arr.length);
         assertArrayEquals(expected, arr);
     }
 

@@ -1,3 +1,5 @@
+package com.SberTex.app;
+
 public class QuickSort {
     private void quickSortCore(int[] arr, int low, int high) {
         int i, j;
@@ -28,7 +30,7 @@ public class QuickSort {
         }
     }
 
-    public void quickSort(int[] arr, int len) {
+    public void QuickSort(int[] arr, int len) {
         int low = 0;
         int high = len - 1;
         quickSortCore(arr, low, high);
