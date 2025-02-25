@@ -6,17 +6,17 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- clean:3.4.0:clean (default-clean) @ Sortings ---
-[INFO] Deleting C:\Users\Shiko\IdeaProjects\task1\Task2\Sortings\target
+[INFO] Deleting C:\Users\Shiko\IdeaProjects\tasks\Task2\Sortings\target
 [INFO] 
 [INFO] --- resources:3.3.1:resources (default-resources) @ Sortings ---
-[INFO] skip non existing resourceDirectory C:\Users\Shiko\IdeaProjects\task1\Task2\Sortings\src\main\resources
+[INFO] skip non existing resourceDirectory C:\Users\Shiko\IdeaProjects\tasks\Task2\Sortings\src\main\resources
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ Sortings ---
 [INFO] Recompiling the module because of changed source code.
 [INFO] Compiling 1 source file with javac [debug release 17] to target\classes
 [INFO] 
 [INFO] --- resources:3.3.1:testResources (default-testResources) @ Sortings ---
-[INFO] skip non existing resourceDirectory C:\Users\Shiko\IdeaProjects\task1\Task2\Sortings\src\test\resources
+[INFO] skip non existing resourceDirectory C:\Users\Shiko\IdeaProjects\tasks\Task2\Sortings\src\test\resources
 [INFO] 
 [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Sortings ---
 [INFO] Recompiling the module because of changed dependency.
@@ -43,7 +43,7 @@
 [INFO] 
 [INFO] 
 [INFO] --- jar:3.4.2:jar (default-jar) @ Sortings ---
-[INFO] Building jar: C:\Users\Shiko\IdeaProjects\task1\Task2\Sortings\target\Sortings-1.0-SNAPSHOT.jar
+[INFO] Building jar: C:\Users\Shiko\IdeaProjects\tasks\Task2\Sortings\target\Sortings-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- install:3.1.2:install (default-install) @ Sortings ---
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.pom
@@ -56,8 +56,8 @@
 [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar (196 kB at 871 kB/s)
 [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar
 [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar (157 kB at 930 kB/s)
-[INFO] Installing C:\Users\Shiko\IdeaProjects\task1\Task2\Sortings\pom.xml to C:\Users\Shiko\.m2\repository\com\SberTex\app\Sortings\1.0-SNAPSHOT\Sortings-1.0-SNAPSHOT.pom
-[INFO] Installing C:\Users\Shiko\IdeaProjects\task1\Task2\Sortings\target\Sortings-1.0-SNAPSHOT.jar to C:\Users\Shiko\.m2\repository\com\SberTex\app\Sortings\1.0-SNAPSHOT\Sortings-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\Shiko\IdeaProjects\tasks\Task2\Sortings\pom.xml to C:\Users\Shiko\.m2\repository\com\SberTex\app\Sortings\1.0-SNAPSHOT\Sortings-1.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\Shiko\IdeaProjects\tasks\Task2\Sortings\target\Sortings-1.0-SNAPSHOT.jar to C:\Users\Shiko\.m2\repository\com\SberTex\app\Sortings\1.0-SNAPSHOT\Sortings-1.0-SNAPSHOT.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
