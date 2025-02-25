@@ -1,17 +1,4 @@
-
-public class sort {
-    public void BubbleSort(int[] arr, int len) {
-        for (int j = 0; j < len - 1; ++j) {
-            for (int i = 0; i < len - 1 - j; ++i) {
-                if (arr[i] > arr[i + 1]) {
-                    int temp = arr[i];
-                    arr[i] = arr[i + 1];
-                    arr[i + 1] = temp;
-                }
-            }
-        }
-    }
-    //Быстрая сортировка
+public class QuickSort {
     private void quickSortCore(int[] arr, int low, int high) {
         int i, j;
         int pivot;
@@ -45,18 +32,5 @@ public class sort {
         int low = 0;
         int high = len - 1;
         quickSortCore(arr, low, high);
-    }
-
-    public void printArray(int[] arr, int len) {
-        for (int i = 0; i < len; ++i) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
-
-    public void fillArray(int[] arr, int len) {
-        for(int i = 0; i < len; ++i) {
-            arr[i] = (int)(Math.random() * 100) + 1;
-        }
     }
 }
